@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./static/style.css">
+    <title>Pyadina</title>
+</head>
+<body>
+<div class="parent">
+    <div class="div1 piadina-box">
+        <img class="piadina-img" src="./static/food.png" alt="logo">
+        <h3 id="piadina-0">Piadina 1</h3>
+        <div class="piadina-order">
+            <div class="counter">
+                <h1 data-typeId="0">0</h1>
+            </div>
+            <div class="minus">
+                <button class="order-button" data-typeId="0">-</button>
+            </div>
+            <div class="plus">
+                <button class="order-button" data-typeId="0">+</button>
+            </div>
+        </div>
+    </div>
+    <div class="div2 piadina-box">
+        <img class="piadina-img" src="./static/food.png" alt="logo">
+        <h3 id="piadina-1">Piadina 2</h3>
+        <div class="piadina-order">
+            <div class="counter">
+                <h1 data-typeId="1">0</h1>
+            </div>
+            <div class="minus">
+                <button class="order-button" data-typeId="1">-</button>
+            </div>
+            <div class="plus">
+                <button class="order-button" data-typeId="1">+</button>
+            </div>
+        </div>
+    </div>
+    <div class="div3 piadina-box">
+        <img class="piadina-img" src="./static/food.png" alt="logo">
+        <h3 id="piadina-2">Piadina 3</h3>
+        <div class="piadina-order">
+            <div class="counter">
+                <h1 data-typeId="2">0</h1>
+            </div>
+            <div class="minus">
+                <button class="order-button" data-typeId="2">-</button>
+            </div>
+            <div class="plus">
+                <button class="order-button" data-typeId="2">+</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="div5">
+        <div class="bparent">
+            <div class="b1 center">
+                <button id="place-order-customer-button" class="finish-order-button" onclick="placeOrderCustomer()"
+                        disabled>
+                    Bestellen
+                </button>
+            </div>
+            <div class="b2 center">
+                <button id="reset-order-button" class="finish-order-button reset" onclick="resetOrder()">Löschen
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="div4" id="statusbar"></div>
+</div>
+<script src="./static/main.js"></script>
+</body>
+</html>

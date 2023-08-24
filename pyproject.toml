@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyadina"
+version = "0.1.0"
+description = ""
+authors = ["Florian Thiévent <florianjeremias@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+caribou = "^0.3.0"
+pywebview = "^4.2.2"
+fpdf2 = "^2.7.4"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
