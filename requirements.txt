@@ -7,7 +7,7 @@ defusedxml==0.7.1
 fonttools==4.41.0
 fpdf2==2.7.4
 idna==3.4
-macholib==1.16.2
+macholib==1.16.3
 Pillow==10.0.0
 proxy-tools==0.1.0
 pywebview==4.2.2
