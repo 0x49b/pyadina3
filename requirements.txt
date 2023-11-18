@@ -1,7 +1,7 @@
 altgraph==0.17.3
 bottle==0.12.25
 caribou==0.3.0
-certifi==2023.7.22
+certifi==2023.11.17
 charset-normalizer==3.2.0
 defusedxml==0.7.1
 fonttools==4.41.0
